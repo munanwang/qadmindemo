@@ -4,7 +4,7 @@ QuickAdmin.Net demo app image.
 
 ## Quick Start
 ```bash
-docker run -it -p 18088:5000 munanwang/qadmindemo
+docker run -it -p 18088:5000 ghcr.io/munanwang/qadmindemo
 ```
 
 ## Environment Variables
@@ -32,13 +32,13 @@ Both `QADMIN_DB_TYPE` and `QADMIN_DB_CONNSTRING` must be provided together if yo
 docker run -it -p 18088:5000 \
   -e QADMIN_DB_TYPE=PostgreSQL \
   -e QADMIN_DB_CONNSTRING="Host=host.docker.internal;Port=5432;Username=qadmin;Password=123456;Database=qadmindemo" \
-  munanwang/qadmindemo
+  ghcr.io/munanwang/qadmindemo
 ```
 
 - Enable SQL Monitoring:  
 ```bash
 docker run -it -p 18088:5000 \
   -e QADMIN_MONITOR_SQL_COMMAND=yes \
-  munanwang/qadmindemo
+  ghcr.io/munanwang/qadmindemo
 ```
 
