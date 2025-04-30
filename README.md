@@ -20,10 +20,10 @@ Database connection string.
 `QADMIN_MONITOR_SQL_COMMAND`  
 
 Enables monitoring of executed SQL commands.  
-When set to `yes`, the system will print each executed SQL command to the console.
+When set to `yes`, each executed SQL command will be printed to the console during the running of the application.
 
 ​**Important note:​**​  
-Both `QADMIN_DB_TYPE` and `QADMIN_DB_CONNSTRING` must be provided together if you want to use an external database. If neither is provided, the system will use the built-in Sqlite database.
+Both `QADMIN_DB_TYPE` and `QADMIN_DB_CONNSTRING` must be provided together if you want to use an external database. If neither is provided, the application will use the built-in Sqlite database.
 
 ## Examples
 
