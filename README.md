@@ -1,6 +1,6 @@
 # qadmindemo
 
-QuickAdmin.Net demo app image.
+[QuickAdmin.Net](https://quickadmin.net) demo app image.
 
 ## Quick Start
 ```bash
