@@ -1,3 +1,9 @@
+> **⚠️ Notice:** The image hosted on GHCR is no longer maintained. All new releases are published exclusively on Docker Hub:  
+> https://hub.docker.com/r/munanwang/qadmindemo  
+>  
+> Please pull the latest version using:  
+> `docker pull munanwang/qadmindemo`
+
 # qadmindemo
 
 [QuickAdmin.Net](https://quickadmin.net) demo app image.
